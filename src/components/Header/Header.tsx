@@ -7,7 +7,7 @@ import { AppRoutes, RoutePath } from "../../utils/config/router";
 
 const Header = () => {
   return (
-    <header className={styles.Header}>
+    <header className={styles.header}>
       <Logo />
       <nav className={styles.nav__wrapper}>
         <Link className={styles.link} to={RoutePath[AppRoutes.NOT_FOUND]}>

@@ -1,4 +1,4 @@
-.Header {
+.header {
   padding: 1em;
   display: flex;
   flex-direction: row;
@@ -23,7 +23,6 @@
   position: relative;
 }
 
-
 .link:hover {
   opacity: 0.7;
 }
@@ -32,7 +31,7 @@
   position: absolute;
   top: -5px;
   right: -10px;
-  background-color: #FFA542;
+  background-color: #ffa542;
   color: white;
   border-radius: 50%;
   width: 17px;
