@@ -2,17 +2,26 @@
 @import url("variables/global.css");
 
 .app {
-  font: var(--font-m);
-  background: deepskyblue;
+  font: var(--font-s);
+  background: #eaeaea;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-size-adjust: 100%;
   text-rendering: optimizelegibility;
-  color: black;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 h1 {
   font: var(--font-l);
+  margin: 0;
+}
+
+h2 {
+  font: var(--font-m);
   margin: 0;
 }

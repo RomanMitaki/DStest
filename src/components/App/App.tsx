@@ -1,12 +1,19 @@
 import "../../assets/styles/index.css";
+import styles from "./App.module.css";
+import React from "react";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import AppRouter from "../../utils/providers/AppRouter";
 
 function App() {
   return (
     <div className="app">
-      <p>Hello world</p>
-      <h1>iedrohgboiaehoiheaoi</h1>
+      <Header />
+      <div className={styles.content}>
+        <AppRouter />
+      </div>
+      <Footer />
     </div>
-
   );
 }
 
