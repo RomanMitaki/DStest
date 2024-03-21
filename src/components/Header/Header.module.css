@@ -1,5 +1,5 @@
 .Header {
-  padding: 24px 0;
+  padding: 1em;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -8,4 +8,37 @@
 
 .logo {
   margin-left: auto;
+}
+
+.nav__wrapper {
+  display: flex;
+  min-width: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  opacity: 1;
+  transition: opacity 0.4s linear;
+  position: relative;
+}
+
+
+.link:hover {
+  opacity: 0.7;
+}
+
+.btn__counter {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #FFA542;
+  color: white;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
 }

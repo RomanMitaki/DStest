@@ -5,7 +5,7 @@ import { AppRoutes, RoutePath } from "../../utils/config/router";
 
 const Logo = () => {
   return (
-    <Link to={RoutePath[AppRoutes.CATALOG]}>
+    <Link to={RoutePath[AppRoutes.CATALOG]} className={styles.link}>
       <h1 className={styles.text}>QPICK</h1>
     </Link>
   );
