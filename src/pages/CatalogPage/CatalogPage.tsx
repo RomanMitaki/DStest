@@ -1,10 +1,14 @@
 import React from "react";
+import styles from "./CatalogPage.module.css";
+import Category from "../../components/Category/Category";
 
 const CatalogPage = () => {
   return (
-    <div>
-      <h1>CatalogPage</h1>
-    </div>
+    <main className={styles.catalog__page}>
+      <Category />
+      <Category />
+      <Category />
+    </main>
   );
 };
 

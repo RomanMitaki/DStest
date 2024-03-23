@@ -1,0 +1,9 @@
+.catalog__page {
+  margin: 0 auto;
+  padding: 0 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
