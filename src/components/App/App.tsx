@@ -1,11 +1,18 @@
 import "../../assets/styles/index.css";
 import styles from "./App.module.css";
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import AppRouter from "../../utils/providers/AppRouter";
+import { renderProducts } from "../../services/actions/products";
+import { useAppDispatch } from "../../services/hooks/useAppDispatch";
 
 function App() {
+  const dispatch = useAppDispatch();
+  useEffect(() => {
+    dispatch(renderProducts());
+  }, [dispatch]);
+
   return (
     <div className="app">
       <Header />
