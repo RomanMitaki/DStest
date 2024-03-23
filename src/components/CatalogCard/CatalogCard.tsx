@@ -1,26 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./CatalocCard.module.css";
 import { ReactComponent as StarIcon } from "../../assets/icons/star.svg";
+import { TProductMapped } from "../../utils/types";
+import { useAppDispatch } from "../../services/hooks/useAppDispatch";
+import { increaseItem } from "../../services/slices/products";
 
-const CatalogCard = () => {
+type TCatalogCardProps = {
+  info: TProductMapped;
+};
+const CatalogCard = (props: TCatalogCardProps) => {
+  const { title, price, image, rate, id } = props.info;
+  const dispatch = useAppDispatch();
+  const [isDisabled, setDisabled] = useState(false);
+  const increase = () => {
+    dispatch(increaseItem(id));
+    setDisabled(true);
+  };
+
   return (
     <main className={styles.card__container}>
       <div>
-        <img
-          className={styles.image}
-          src={"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"}
-        />
+        <img className={styles.image} src={image} />
       </div>
       <div className={styles.price__container}>
-        <p className={styles.text}>Goodsdgerrtenhtymtymtyum,y,</p>
-        <p className={styles.price}>1000 ₽</p>
+        <p className={styles.text}>{title}</p>
+        <p className={styles.price}>{price} ₽</p>
       </div>
       <div className={styles.btn__container}>
         <div className={styles.star__container}>
           <StarIcon />
-          <p className={styles.star__rating}>4.7</p>
+          <p className={styles.star__rating}>{rate}</p>
         </div>
-        <button className={styles.btn}>Купить</button>
+        <button
+          disabled={isDisabled}
+          onClick={increase}
+          className={`${styles.btn} ${isDisabled ? styles.disabled : ""}`}
+        >
+          Купить
+        </button>
       </div>
     </main>
   );

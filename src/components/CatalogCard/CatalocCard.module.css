@@ -76,3 +76,13 @@
   overflow: hidden;
   max-width: 200px;
 }
+
+.disabled {
+  color: #838383;
+  cursor: not-allowed;
+}
+
+.disabled:hover {
+  color: #838383;
+  cursor: not-allowed;
+}
