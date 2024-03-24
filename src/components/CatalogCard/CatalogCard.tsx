@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./CatalocCard.module.css";
+import styles from "./CatalogCard.module.css";
 import { ReactComponent as StarIcon } from "../../assets/icons/star.svg";
 import { TProductMapped } from "../../utils/types";
 import { useAppDispatch } from "../../services/hooks/useAppDispatch";
