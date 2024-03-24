@@ -9,12 +9,11 @@ type TCatalogCardProps = {
   info: TProductMapped;
 };
 const CatalogCard = (props: TCatalogCardProps) => {
-  const { title, price, image, rate, id } = props.info;
+  const { title, price, image, rate, id, qty } = props.info;
   const dispatch = useAppDispatch();
-  const [isDisabled, setDisabled] = useState(false);
+
   const increase = () => {
     dispatch(increaseItem(id));
-    setDisabled(true);
   };
 
   return (
@@ -32,9 +31,9 @@ const CatalogCard = (props: TCatalogCardProps) => {
           <p className={styles.star__rating}>{rate}</p>
         </div>
         <button
-          disabled={isDisabled}
+          disabled={qty > 0}
           onClick={increase}
-          className={`${styles.btn} ${isDisabled ? styles.disabled : ""}`}
+          className={`${styles.btn} ${qty > 0 ? styles.disabled : ""}`}
         >
           Купить
         </button>

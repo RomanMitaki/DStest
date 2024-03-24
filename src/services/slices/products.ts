@@ -33,8 +33,8 @@ export const productsSlice = createSlice({
       );
     },
     deleteItem: (state, action) => {
-      state.products = state.products.filter(
-        (item) => item.id !== action.payload,
+      state.products.map((item) =>
+        item.id === action.payload ? (item.qty = 0) : item,
       );
     },
   },
