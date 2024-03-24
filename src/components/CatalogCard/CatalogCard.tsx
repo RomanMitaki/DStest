@@ -20,7 +20,7 @@ const CatalogCard = (props: TCatalogCardProps) => {
   return (
     <main className={styles.card__container}>
       <div>
-        <img className={styles.image} src={image} />
+        <img className={styles.image} src={image} alt="product's image" />
       </div>
       <div className={styles.price__container}>
         <p className={styles.text}>{title}</p>

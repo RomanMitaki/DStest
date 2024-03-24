@@ -26,6 +26,7 @@
   justify-content: start;
   flex: 2;
   flex-wrap: nowrap;
+  gap: 1em;
 }
 
 .total__container {
@@ -50,11 +51,13 @@
 .total__text {
   font-size: 15px;
   line-height: 1.2;
+  margin: 0;
 }
 
 .total__price {
   font-size: 15px;
   line-height: 1.2;
+  margin: 0;
 }
 
 .total__btn {
