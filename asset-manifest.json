@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.16e293f2.css",
-    "main.js": "./static/js/main.d3d9c162.js",
-    "static/media/Montserrat-Bold.ttf": "./static/media/Montserrat-Bold.f85296a3c4a7ff5f7f15.ttf",
-    "static/media/Montserrat-SemiBold.ttf": "./static/media/Montserrat-SemiBold.54b6099feedfd10f0a5f.ttf",
-    "static/media/Montserrat-Regular.ttf": "./static/media/Montserrat-Regular.6bd9a7e09f9af81f6b5a.ttf",
-    "static/media/vk.svg": "./static/media/vk.0f74a49805c5b67fb168cef489d62cc4.svg",
-    "static/media/whatsapp.svg": "./static/media/whatsapp.6e93e17f0441a3c036bca1826b28ad0b.svg",
-    "static/media/cart.svg": "./static/media/cart.f653bee770d81ccaf4d689ba73bf170f.svg",
-    "static/media/group.svg": "./static/media/group.5075c0167de96b9bcbdc819f9fb35d60.svg",
-    "static/media/telegram.svg": "./static/media/telegram.d73bbc51a9e845ba591e22f78d02d9c6.svg",
-    "static/media/trash.svg": "./static/media/trash.aa15ca7243eed68c99d2e6471f498321.svg",
-    "static/media/heart.svg": "./static/media/heart.2b6fff3c93e411f31ab00f3d497cb15f.svg",
-    "index.html": "./index.html",
-    "static/media/star.svg": "./static/media/star.6f0a1bde2f1487d26faea271e74dd991.svg",
-    "main.16e293f2.css.map": "./static/css/main.16e293f2.css.map",
-    "main.d3d9c162.js.map": "./static/js/main.d3d9c162.js.map"
+    "main.css": "/DStest/static/css/main.43776ccf.css",
+    "main.js": "/DStest/static/js/main.12571058.js",
+    "static/media/Montserrat-Bold.ttf": "/DStest/static/media/Montserrat-Bold.f85296a3c4a7ff5f7f15.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/DStest/static/media/Montserrat-SemiBold.54b6099feedfd10f0a5f.ttf",
+    "static/media/Montserrat-Regular.ttf": "/DStest/static/media/Montserrat-Regular.6bd9a7e09f9af81f6b5a.ttf",
+    "static/media/vk.svg": "/DStest/static/media/vk.0f74a49805c5b67fb168cef489d62cc4.svg",
+    "static/media/whatsapp.svg": "/DStest/static/media/whatsapp.6e93e17f0441a3c036bca1826b28ad0b.svg",
+    "static/media/cart.svg": "/DStest/static/media/cart.f653bee770d81ccaf4d689ba73bf170f.svg",
+    "static/media/group.svg": "/DStest/static/media/group.5075c0167de96b9bcbdc819f9fb35d60.svg",
+    "static/media/telegram.svg": "/DStest/static/media/telegram.d73bbc51a9e845ba591e22f78d02d9c6.svg",
+    "static/media/trash.svg": "/DStest/static/media/trash.aa15ca7243eed68c99d2e6471f498321.svg",
+    "index.html": "/DStest/index.html",
+    "static/media/heart.svg": "/DStest/static/media/heart.2b6fff3c93e411f31ab00f3d497cb15f.svg",
+    "static/media/star.svg": "/DStest/static/media/star.6f0a1bde2f1487d26faea271e74dd991.svg",
+    "main.43776ccf.css.map": "/DStest/static/css/main.43776ccf.css.map",
+    "main.12571058.js.map": "/DStest/static/js/main.12571058.js.map"
   },
   "entrypoints": [
-    "static/css/main.16e293f2.css",
-    "static/js/main.d3d9c162.js"
+    "static/css/main.43776ccf.css",
+    "static/js/main.12571058.js"
   ]
 }
