@@ -11,4 +11,8 @@
   --font-size-l: 25px;
   --font-line-l: 1.2;
   --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+  --modal-z-index: 10;
+
+  --overlay-color: rgba(0 0 0 / 60%);
 }
