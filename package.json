@@ -1,6 +1,7 @@
 {
   "name": "dstest",
   "version": "0.1.0",
+  "homepage": "https://romanmitaki.github.io/DStest",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.2",
@@ -23,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +49,7 @@
   "devDependencies": {
     "@types/react-redux": "^7.1.33",
     "@types/react-router-dom": "^5.3.3",
+    "gh-pages": "^6.1.1",
     "prettier": "3.2.5"
   }
 }
