@@ -27,6 +27,7 @@ export type TProductMapped = {
   qty: number;
   rate: number;
   category: string;
+  description: string;
 };
 
 export type TProductsState = {

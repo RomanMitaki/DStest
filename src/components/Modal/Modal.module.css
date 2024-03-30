@@ -21,7 +21,7 @@
 
 .content {
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 30px;
   background: #ffffff;
   transition: 0.3s transform;
   transform: scale(0.5);

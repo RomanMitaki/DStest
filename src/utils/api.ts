@@ -23,6 +23,7 @@ export async function getProducts() {
       rate: product.rating.rate,
       qty: 0,
       category: product.category,
+      description: product.description,
     }));
   } catch (error) {
     console.error("An error occurred:", error);

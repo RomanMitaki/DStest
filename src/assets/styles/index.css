@@ -1,13 +1,16 @@
 @import url("vendor/normalize.css");
 @import url("variables/global.css");
 
-.app {
+body {
   font: var(--font-s);
-  background: #eaeaea;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-size-adjust: 100%;
   text-rendering: optimizelegibility;
+}
+
+.app {
+  background: #eaeaea;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
